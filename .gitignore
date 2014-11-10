@@ -1,0 +1,16 @@
+# development variable directories
+node_modules/
+dist/
+sftp-config.json
+.DS_Store
+# IDEs metadata
+.project
+nbproject
+.sass-cache/
+
+# temp files
+~*
+._*
+#src/_config/.revision
+# documentation
+docs/

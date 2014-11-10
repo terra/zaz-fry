@@ -1,0 +1,26 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "Web Services engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^2.4.2",
+    "hapi": "^7.1.1",
+    "lout": "^5.1.1",
+    "scooter": "^1.2.1",
+    "wreck": "^5.0.1",
+    "zaz-fry-fromgithub": "git://github.tpn.terra.com/Terra/zaz-fry-fromgithub",
+    "tv": "^2.1.0"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-6to5": "^1.0.1"
+  }
+}
