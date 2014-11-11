@@ -1,6 +1,4 @@
-zaz-fry
-=======
-**Warning** Fry is a working progress project  
+**Warning**: Fry is a working progress project  
 
 ![logo](https://raw.githubusercontent.com/wiki/terra/zaz-fry/_img/logo.jpg)  
 
