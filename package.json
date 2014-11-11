@@ -6,8 +6,13 @@
   "scripts": {
     "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jaydson Gomes <jayalemao@gmail.com> (http://jaydson.org/)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "grunt",
+    "prepublish": "npm i grunt-6to5 && npm test",
+    "test": "grunt build"
+  },
   "dependencies": {
     "good": "^2.4.2",
     "hapi": "^7.1.1",
