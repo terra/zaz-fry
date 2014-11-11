@@ -19,7 +19,6 @@
     "lout": "^5.1.1",
     "scooter": "^1.2.1",
     "wreck": "^5.0.1",
-    "zaz-fry-fromgithub": "git://github.tpn.terra.com/Terra/zaz-fry-fromgithub",
     "tv": "^2.1.0"
   },
   "devDependencies": {
