@@ -7,6 +7,7 @@ let Tv = require('tv');
 
 // ES6 Fry modules
 import helpers from './helpers';
+import { host, port } from '../fryconfig';
 
 class Fry {
     constructor() {
@@ -42,14 +43,14 @@ class Fry {
         helpers.loadFryModules(fryAPI);
 
         let options = {
-            host: '10.224.195.49',
-            port: 8183,
+            host,
+            port,
             endpoint: '/debug/console'
         };
 
         server.pack.register({ 
             plugin: Tv, 
-            options: options 
+            options
         }, (err) => {
             if (err) {
                 console.log(err);
