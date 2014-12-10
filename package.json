@@ -4,14 +4,11 @@
   "description": "Web Services engine",
   "main": "index.js",
   "scripts": {
-    "test": "test"
-  },
-  "author": "Jaydson Gomes <jayalemao@gmail.com> (http://jaydson.org/)",
-  "license": "MIT",
-  "scripts": {
     "dev": "grunt",
     "test": "grunt build"
   },
+  "author": "Jaydson Gomes <jayalemao@gmail.com> (http://jaydson.org/)",
+  "license": "MIT",
   "dependencies": {
     "good": "^2.4.2",
     "hapi": "^7.1.1",
